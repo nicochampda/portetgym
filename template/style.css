@@ -1,0 +1,23 @@
+
+.header-section  { 
+    background-color:rgb(0, 132, 255) ;
+
+    margin: 30px auto; 
+    padding: 30px 40px; 
+    text-align: center; 
+    line-height: 150%; 
+
+}
+
+article { 
+    padding: 40px; 
+    line-height: 150%; 
+    text-align: left; 
+}
+
+nav .item {
+    text-decoration: none;
+}
+nav .active {
+    border-bottom: 1px solid;
+}
