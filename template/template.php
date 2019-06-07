@@ -13,7 +13,9 @@
 
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+
+    <link href="/static/css/all.css" rel="stylesheet" type="text/css">
 
     <link href="/static/css/base.css" rel="stylesheet">
 
@@ -145,116 +147,32 @@
 
             
             <li class="dropdown">
-                <a href="/wiki/services" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-futbol-o fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Services</span></a>
+                <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Fédérations</span></a>
                 <ul class="dropdown-menu">
                     
                     <li>
-                      <a href="/wiki/services/internet-tres-haut-debit" class="container dropdown-link">
+                      <a href="https://www.ufolepgym.com/" class="container dropdown-link" target="_blank">
                         <div class="row">
                           <div class="col-xs-2 icon">
-                            <span class="glyphicon glyphicon-flash"></span>
+                            <img src="/static/images/ufolep.jpg" alt="logo ufolep" class="img-responsive logo">
                           </div>
                           <div class="col-xs-10">
-                            <div class="link-name">Internet très haut débit</div>
-                            <div class="link-description">Le ResEl propose un internet neutre à tous ses adhérents</div>
+                            <div class="link-name">UFOLEP</div>
+                            <div class="link-description">Le site de l'UFOLEP</div>
                           </div>
                         </div>
                       </a>
                     </li>
                     
                     <li>
-                      <a href="https://resel.fr/tv" class="container dropdown-link">
+                      <a href="https://ffgym.fr/" class="container dropdown-link" target="_blank">
                         <div class="row">
                           <div class="col-xs-2 icon">
-                            <span class="glyphicon glyphicon-film"></span>
+                            <img src="/static/images/ffgym.jpeg" alt="logo ffgym" class="img-responsive logo">
                           </div>
                           <div class="col-xs-10">
-                            <div class="link-name">La Télévision</div>
-                            <div class="link-description">Grâce au ResEl il est possible de regarder plus de 30 chaines en direct sur son ordinateur</div>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    
-                    <li>
-                      <a href="https://mlistes.resel.fr" class="container dropdown-link">
-                        <div class="row">
-                          <div class="col-xs-2 icon">
-                            <span class="glyphicon glyphicon-envelope"></span>
-                          </div>
-                          <div class="col-xs-10">
-                            <div class="link-name">Listes de diffusion</div>
-                            <div class="link-description">Les listes de diffusion du ResEl permettent de faire vivre le campus de l&#39;IMT Atlantique à Brest !</div>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    
-                    <li>
-                      <a href="https://garbage.resel.fr" class="container dropdown-link">
-                        <div class="row">
-                          <div class="col-xs-2 icon">
-                            <span class="glyphicon glyphicon-search"></span>
-                          </div>
-                          <div class="col-xs-10">
-                            <div class="link-name">Garbage</div>
-                            <div class="link-description">Moteur de recheche</div>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    
-                    <li>
-                      <a href="https://stages.resel.fr" class="container dropdown-link">
-                        <div class="row">
-                          <div class="col-xs-2 icon">
-                            <span class="glyphicon glyphicon-list-alt"></span>
-                          </div>
-                          <div class="col-xs-10">
-                            <div class="link-name">Stages</div>
-                            <div class="link-description">Trouvez des offres de stages sur notre plateforme interactive</div>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    
-                    <li>
-                      <a href="https://git.resel.fr" class="container dropdown-link">
-                        <div class="row">
-                          <div class="col-xs-2 icon">
-                            <span class="glyphicon glyphicon-console"></span>
-                          </div>
-                          <div class="col-xs-10">
-                            <div class="link-name">Gitlab</div>
-                            <div class="link-description">Gestion de projets avec tickets, revue de code, et intégration continue</div>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    
-                    <li>
-                      <a href="http://sandstorm.resel.fr" class="container dropdown-link">
-                        <div class="row">
-                          <div class="col-xs-2 icon">
-                            <span class="glyphicon glyphicon-education"></span>
-                          </div>
-                          <div class="col-xs-10">
-                            <div class="link-name">Sandstorm</div>
-                            <div class="link-description">Plateforme de services cloud</div>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    
-                    <li>
-                      <a href="https://resel.fr/contact/" class="container dropdown-link">
-                        <div class="row">
-                          <div class="col-xs-2 icon">
-                            <span class="glyphicon glyphicon-cloud"></span>
-                          </div>
-                          <div class="col-xs-10">
-                            <div class="link-name">Hébergement cloud</div>
-                            <div class="link-description">Hébergez tous vos sites ou applications web pour votre club ou association</div>
+                            <div class="link-name">FFGym</div>
+                            <div class="link-description">Toutes les informations de la fédération française</div>
                           </div>
                         </div>
                       </a>
@@ -265,7 +183,10 @@
             
 
             <li>
-                <a class="btn-campus" href="/campus/"><i class="fa fa-bicycle fa-fw"></i> <span class="hidden-sm btn-campus-text">Campus</span></a>
+                <li class="dropdown">
+                  <a href="https://www.ffgym.fr/Competition/resultats" class="dropdown-toggle" data-toggle="dropdown" target="_blank"><i class="fa fa-trophy fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Résultats</span></a>
+                  
+                </li>
             </li>
             
         </ul>
@@ -320,11 +241,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-md-offset-1">
-          <h2 class="assos-title">Le Réseau des Élèves de l'IMT Atlantique</h2>
-          <p class="assos-slogan">Le fournisseur d'accès associatif par les teubreux pour les teubreux</p>
+          <h2 class="assos-title">PORTETGYM</h2>
+          <p class="assos-slogan">Club de gymnastique de Portet-sur-Garonne</p>
         </div>
         <div class="col-md-offset-1 col-md-6">
-          <img src="/static/images/logo_resel.png" alt="logo ResEl" class="img-responsive logo">
+          <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo">
         </div>
       </div>
     </div>
@@ -417,48 +338,7 @@
 
 
 
-<div id="header-section" class="header-section">
-    <nav
-        id="main-menu"
-        class="menu-block main-menu">
-        <!-- data-ffgym-viewcomponents="{&quot;MainMenuExpand&quot;:[]}"> -->
-        <ul class="menu">
-        <li class="home-link active">
-            <a href="//www.portetgym.fr">
-                Accueil
-            </a>
-        </li>
-        </ul>
-    </nav>
 
-    <header>
-        <h1><?php site_name(); ?></h1>
-        <nav class="menu">
-            <?php nav_menu(); ?>
-        </nav>
-        <section
-            id="connexion"    class="login-expand-block "
-                                data-ffgym-viewcomponents="{&quot;LoginExpand&quot;:[]}"
-                        >
-                <a class="visibility-switch visibility-disabled">
-                Connexion
-            </a>
-            <div class="expandable">
-                    <section class="push">
-            <h1>Nouvel utilisateur?</h1>
-            <p>Vous êtes un nouvel utilisateur, vous pouvez dès maintenant vous inscrire sur votre nouveau site. Si vous disposez déjà d&#039;un compte, vous pouvez vous enregistrer ci-contre.
-        Bienvenue !</p>
-            <a href="/temp" target="_self">
-                Créer votre compte
-            </a>
-        </section>
-    </header>
-</div>
-<div id="content" class="content">
-    <article>
-        <h2><?php page_title(); ?></h2>
-        <?php page_content(); ?>
-    </article>
 
     <footer>
         <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
