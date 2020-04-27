@@ -17,9 +17,15 @@
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
     <link href="/static/css/all.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/base.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
+    <!-- Navigation -->
+    <?php include('../common/header.php'); ?>
+
+
     <div class="jumbotron">
     <!-- <div class="jumbotron-sep hidden-xs"></div> -->
     <div class="container">
