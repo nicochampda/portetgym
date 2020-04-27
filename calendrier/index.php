@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="911x911" href="/images/icons/favicon-911x911.png">
     
-    <title> Portet Gym | Contact </title>
+    <title> Portet Gym | Calendrier </title>
 
     
     <link href="/static/css/base.css" rel="stylesheet">
