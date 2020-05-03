@@ -37,8 +37,6 @@
         <div class="col-md-offset-1 col-md-6">
           <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 70%; height: 70%">
         </div>
-      <!-- </div>
-    </div>
 </body>
 
 </html>

@@ -57,6 +57,13 @@
         transform: scale(1, 1);
     }
 }
+
+/* image alpha ratio should be 0.3 to have a good visual */
+.image-background{
+    background:url('/static/images/salle2.png') no-repeat top center / cover;
+    color: #242c5d; 
+}
+
 .assos-title {
     animation: 2s ease-out 0s 1 slideInFromLeft;
 }

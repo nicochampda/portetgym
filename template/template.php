@@ -11,15 +11,15 @@
     <title><?php site_name(); ?> | <?php page_title(); ?></title>
 
 
-    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
 
     <link href="/static/css/all.css" rel="stylesheet" type="text/css">
 
-    <link href="/static/css/base.css" rel="stylesheet">
+    <link href="/static/css/base.css" rel="stylesheet" type="text/css">
 
-    <link href="/static/css/home.css" rel="stylesheet">
+    <link href="/static/css/home.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -184,29 +184,33 @@
 </nav>
 
 <div id="page-wrapper">
-    
+
+  <!-- <div class="jumbotron"> -->
+  <!-- </div> -->
+
   <div class="jumbotron">
+    <div class="image-background">
     <div class="jumbotron-sep hidden-xs"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-md-offset-1">
-          <h2 class="assos-title">PORTET GYM</h2>
-          <p class="assos-slogan">Club de gymnastique de Portet-sur-Garonne</p>
-        </div>
-        <div class="col-md-offset-1 col-md-6">
-          <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 50%; height: 50%">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-1">
+            <h2 class="assos-title">PORTET GYM</h2>
+            <p class="assos-slogan">Club de gymnastique artistique, babygym, loisirs et compétition GAM GAF</p>
+          </div>
+          <div class="col-md-offset-1 col-md-5">
+            <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 50%; height: 50%;">
+          </div>
         </div>
       </div>
-    </div>
     <div class="jumbotron-sep hidden-xs"></div>
   </div>
 
-    
-
+  
     
   <style>.navbar-brand { display: none; }</style>
         
-  <div class="home-fragment home-presentation home-user-management">
+  <!-- <div class="home-fragment home-presentation home-user-management">
     <div class="jumbotron-sep hidden-xs"></div>
       <div class="container article">
           <h2>Ici des infos intéressantes de <a href="http://club.quomodo.com/portetgym" target="_blank">Portet Gym</a> et surtout des photos ! </h2>
@@ -226,7 +230,7 @@
           </div>
       </div>
     <div class="jumbotron-sep hidden-xs"></div>
-  </div>
+  </div> -->
         
   <!-- <div class="home-fragment home-bg-img">
       <div id="carousel-quotes" class="carousel slide" data-ride="carousel">
@@ -272,27 +276,8 @@
 
 </div>
 
-
-<footer class="footer">
-  <div class="container text-center">
-    <div class="row">
-      <a href="https://www.facebook.com/PortetGym/" aria-label="Page Facebook de PortetGym"><span class="fab fa-facebook social"></span></a>
-      <a href="https://www.instagram.com/PortetGym/" aria-label="Instagram de PortetGym"><span class="fab fa-instagram social"></span></a>
-      <a href="https://www.youtube.com/channel/UCTDGQYG4ZNDcGUG8TnRzQyg" aria-label="Youtube de PortetGym"><span class="fab fa-youtube social"></span></a>
-    </div>
-    <div class="row">
-    </div>
-  </div>
-  <div class="text-center bottom-row">
-    <div class="container ">
-      <div class="col-sm-8 col-sm-offset-2">
-          Association Portet Gym - Tous droits réservés - <a href="https://github.com/nicochampda/portetgym">Code Source</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
 </div>
+
 <!-- jQuery -->
 <script src="/static/jquery/jquery.min.js"></script>
 
