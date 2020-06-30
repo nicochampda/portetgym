@@ -60,7 +60,7 @@
             <ul class="dropdown-menu">
                 
               <li>
-                <a href="" class="container dropdown-link">
+                <a href="/bureau" class="container dropdown-link">
                   <div class="row">
                     <div class="col-xs-2 icon">
                       <i class="fa fa-user-tie glyphicon"></i>
@@ -74,7 +74,7 @@
               </li>
                 
               <li>
-                <a href="" class="container dropdown-link">
+                <a href="/entraineurs" class="container dropdown-link">
                   <div class="row">
                     <div class="col-xs-2 icon">
                       <i class="fa fa-user-ninja glyphicon"></i>
@@ -88,7 +88,7 @@
               </li>
             
               <li>
-                <a href="" class="container dropdown-link">
+                <a href="/planning" class="container dropdown-link">
                   <div class="row">
                     <div class="col-xs-2 icon">
                       <i class="fa fa-clock glyphicon"></i>
@@ -102,7 +102,7 @@
               </li>
             
               <li>
-                <a href="" class="container dropdown-link">
+                <a href="/cotisations" class="container dropdown-link">
                   <div class="row">
                     <div class="col-xs-2 icon">
                       <i class="fa fa-euro-sign glyphicon"></i>

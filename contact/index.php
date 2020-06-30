@@ -41,11 +41,11 @@
                 <fieldset class="form-check">
                   <label>Etes-vous adhérant ?</label>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="oui">
                     <label class="form-check-label" for="inlineRadio1">oui</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="non">
                     <label class="form-check-label" for="inlineRadio2">non</label>
                   </div>
                 </fieldset>
@@ -70,7 +70,7 @@
                 </fieldset>
                 
                 <div class="form-group text-center">
-                    <input type="submit" class="btn btn-info" value="Envoyer">
+                    <input type="submit" name="submit" class="btn btn-info" value="Envoyer">
                 </div>
             </form>
         </div>
@@ -101,7 +101,19 @@
 </div>
 
 
-
+<?php
+if($_POST["submit"]) {
+    $recipient="contact@portetgym.fr"; //Enter your mail address
+    $subject="Contact from Website"; //Subject 
+    $adherant=$_POST["inlineRadioOptions"];
+    $sender=$_POST["nom"];
+    $senderEmail=$_POST["mail"];
+    $message=$_POST["demande"];
+    $mailBody="Name: $sender\nAdherant: $adherant\nEmail Address: $senderEmail\n\nMessage: $message";
+    mail($recipient, $subject, $mailBody);
+    sleep(1);
+}
+?>
 <!-- Bootstrap Core JavaScript -->
 <!-- <script src="/static/boostrap/js/bootstrap.min.js"></script> -->
 
