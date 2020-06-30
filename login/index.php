@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="911x911" href="/images/icons/favicon-911x911.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="911x911" href="/static/images/icons/favicon-911x911.png">
     
     <title> Portet Gym | Contact </title>
 
@@ -22,12 +22,11 @@
 
 </head>
 <body>
-    <!-- Navigation -->
-    <?php include('../common/header.php'); ?>
+  <!-- Navigation -->
+  <?php include('../common/header.php'); ?>
 
 
-    <div class="jumbotron">
-    <!-- <div class="jumbotron-sep hidden-xs"></div> -->
+  <div class="jumbotron">
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-md-offset-1">
@@ -37,6 +36,13 @@
         <div class="col-md-offset-1 col-md-6">
           <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 70%; height: 70%">
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <?php include('../common/footer.php'); ?> 
+
 </body>
 
 </html>
