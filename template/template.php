@@ -191,21 +191,36 @@
   <div class="jumbotron">
     <div class="image-background">
     <div class="jumbotron-sep hidden-xs"></div>
-
+    <div class="jumbotron-sep hidden-xs"></div>   
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-md-offset-1">
+          <div class="col-md-5 col-md-offset-1"> 
             <h2 class="assos-title">PORTET GYM</h2>
-            <p class="assos-slogan">Club de gymnastique artistique, babygym, loisirs et compétition GAM GAF</p>
+            <p class="assos-slogan">Club de gymnastique artistique, babygym, loisirs et compétition GAM GAF</p>   
           </div>
           <div class="col-md-offset-1 col-md-5">
             <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 50%; height: 50%;">
           </div>
         </div>
       </div>
-    <div class="jumbotron-sep hidden-xs"></div>
   </div>
 
+  <div class="jumbotron">
+    <div class="general_background">
+      <div class="news1">
+        <div class="row">
+          <h2 class="assos-title-1">INSCRIPTIONS</h2>
+         
+          <p class="assos-infos-1">Nous mettons en place cette année un nouveau système d'inscription avec un formulaire à remplir en ligne. Il sera disponible sur ce site internet à partir de mi-août. Il faudra ensuite venir aux inscriptions en personne <b> le samedi 29 août de 10h à 13h</b> ou <b>le mercredi 2 septembre de 17h à 20h.</b></p>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <p class="assos-notif">Notez que remplir le formulaire en ligne ne garantit pas de place.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   
     
   <style>.navbar-brand { display: none; }</style>
