@@ -1,6 +1,6 @@
 
 <!-- Navigation -->
-<nav class="navbar navbar-main navbar-static-top" role="navigation">
+<nav class="navbar navbar-main navbar-static-top">
   <div class="container">
     <div class="nav navbar-left navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">

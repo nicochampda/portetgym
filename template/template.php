@@ -190,8 +190,8 @@
 
   <div class="jumbotron">
     <div class="image-background">
-    <div class="jumbotron-sep hidden-xs"></div>
-    <div class="jumbotron-sep hidden-xs"></div>   
+      <div class="jumbotron-sep hidden-xs"></div>
+      <div class="jumbotron-sep hidden-xs"></div>   
       <div class="container">
         <div class="row">
           <div class="col-md-5 col-md-offset-1"> 

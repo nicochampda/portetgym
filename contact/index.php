@@ -15,7 +15,11 @@
     
     <link href="/static/css/all.css" rel="stylesheet" type="text/css">
     <link href="/static/css/base.css" rel="stylesheet" type="text/css">
+<!-- jQuery -->
+<script src="/static/jquery/jquery.min.js"></script>
 
+<!-- Bootstrap Core JavaScript -->
+<script src="/static/boostrap/js/bootstrap.min.js"></script>
 </head>
 <body>
   <!-- Navigation -->
@@ -125,6 +129,7 @@ if($_POST["submit"]) {
 
  <!-- Footer -->
  <?php include('../common/footer.php'); ?>
+
 
 
 </body>

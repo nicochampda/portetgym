@@ -18,6 +18,7 @@
     
     <link href="/static/css/all.css" rel="stylesheet" type="text/css">
     <link href="/static/css/base.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/table.css" rel="stylesheet" type="text/css">
 
 
 </head>
@@ -26,19 +27,77 @@
   <?php include('../common/header.php'); ?>
 
 
-  <div class="jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-md-offset-1">
-          <h2 class="assos-title">Cette page est en cours de création</h2>
-          <p class="assos-slogan">Aidez nous a la terminer</p>
+  <div id="page-wrapper">
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <h2 class="assos-title">COTISATIONS 2020 - 2021</h2>
+          <p>Le montant de la cotisation comprend :
+            <ul>
+              <li>Licence</li>
+              <li>Engagements en compétition</li>
+              <li>Defraiements des juges et entraineurs</li>
+              <li>Participation à la vie du club</li>
+            </ul>
+          </p>
         </div>
-        <div class="col-md-offset-1 col-md-6">
-          <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 70%; height: 70%">
+        <br>
+        <div class="row">
+          <table class="table table-bordered table-cotisations">
+            <thead>
+              <tr>
+                <th scope="col">Age</th>
+                <th scope="col">Cours</th>
+                <th scope="col">Entrainements</th>
+                <th scope="col">Tarifs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2 - 5 ans</th>
+                <td>Babygym</td>
+                <td>1 x 45 min</td>
+                <td>140€</td>
+              </tr>
+              <tr>
+                <td rowspan="2">6 - 17 ans</th>
+                <td>Challenge</td>
+                <td>1 x 1h30</td>
+                <td>125€</td>
+              </tr>
+                
+                <td>Compétition</td>
+                <td>2 x 1h30</td>
+                <td>145€</td>
+              </tr>
+              <tr>
+                <td rowspan="2">17 ans et +</th>
+                <td>Challenge</td>
+                <td>1 x 1h30</td>
+                <td>150€</td>
+              </tr>
+                
+                <td>Compétition</td>
+                <td>2 x 1h30</td>
+                <td>190€</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+        <br>
+        <div class="row">
+          <p>Précisions :</p>
+          <ul>
+            <li>Réduction de 25€ proposée par le club pour les licenciés de la saison 2019-2020 qui le souhaitent, en compensation des entraînements et compétitions manqués.</li>
+            <li>40€ supplémentaires seront demandés en cas de double licences (UFOLEP + FFGym) </li>
+            <li>Pour les Non Portésiens, 83€ seront demandés par chèques à l'ordre du "trésor publique" pour la mairie de Portet </li>
+          </ul>
+        </div>
+        <br>
       </div>
     </div>
   </div>
+
 
   <!-- Footer -->
   <?php include('../common/footer.php'); ?> 
