@@ -65,21 +65,22 @@
                 <td>1 x 1h30</td>
                 <td>125€</td>
               </tr>
-                
+              <tr>
                 <td>Compétition</td>
                 <td>2 x 1h30</td>
                 <td>145€</td>
               </tr>
               <tr>
-                <td rowspan="2">17 ans et +</th>
-                <td>Challenge</td>
-                <td>1 x 1h30</td>
-                <td>150€</td>
-              </tr>
-                
+                <td>17 ans et +</th>
                 <td>Compétition</td>
                 <td>2 x 1h30</td>
                 <td>190€</td>
+              </tr>
+              <tr>
+                <td>Tous ages</th>
+                <td>Teamgym</td>
+                <td>1 x 1h30</td>
+                <td>150€</td>
               </tr>
             </tbody>
           </table>
@@ -90,8 +91,9 @@
           <ul>
             <li>Réduction de 25€ proposée par le club pour les licenciés de la saison 2019-2020 qui le souhaitent, en compensation des entraînements et compétitions manqués.</li>
             <li>40€ supplémentaires seront demandés en cas de double licences (UFOLEP + FFGym) </li>
+            <li>50€ en plus de la cotisation "Compétition" pour les gymnastes faisant Compétition + Teamgym</li>
             <li>Réglement par chèque à l'ordre de "Portet Gym" (Possibilité de régler en 2 ou 3 fois) ou en espèces</li>
-            <li>Pour les Non Portésiens, 83€ seront demandés par chèques à l'ordre du "régie de recette activités ludiques" pour la mairie de Portet </li>
+            <li>Pour les Non Portésiens, 83€ seront demandés par chèque à l'ordre du "régie de recette activités ludiques" pour la mairie de Portet </li>
           </ul>
         </div>
         <br>

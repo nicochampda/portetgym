@@ -26,15 +26,20 @@
   <?php include('../common/header.php'); ?>
 
 
-  <div class="jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-md-offset-1">
-          <h2 class="assos-title">Cette page est en cours de création</h2>
-          <p class="assos-slogan">Aidez nous a la terminer</p>
+  <div id="page-wrapper">
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <h2 class="assos-title">PLANNING 2020 - 2021</h2>
         </div>
-        <div class="col-md-offset-1 col-md-6">
-          <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 70%; height: 70%">
+        <br>
+        <div class="row">
+          <img src="/static/images/planning.jpg" alt="planning" class="img-responsive logo" style="width: 100%; height: 100%;">
+        </div>
+        <br>
+        <div>
+        <br>
+          <p>Le planning est donné a titre indicatif, il pourra etre modifié jusqu'au début de la saison</p>
         </div>
       </div>
     </div>
