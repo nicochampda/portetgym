@@ -90,7 +90,8 @@
           <ul>
             <li>Réduction de 25€ proposée par le club pour les licenciés de la saison 2019-2020 qui le souhaitent, en compensation des entraînements et compétitions manqués.</li>
             <li>40€ supplémentaires seront demandés en cas de double licences (UFOLEP + FFGym) </li>
-            <li>Pour les Non Portésiens, 83€ seront demandés par chèques à l'ordre du "trésor publique" pour la mairie de Portet </li>
+            <li>Réglement par chèque à l'ordre de "Portet Gym" (Possibilité de régler en 2 ou 3 fois) ou en espèces</li>
+            <li>Pour les Non Portésiens, 83€ seront demandés par chèques à l'ordre du "régie de recette activités ludiques" pour la mairie de Portet </li>
           </ul>
         </div>
         <br>
