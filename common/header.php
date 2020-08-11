@@ -77,7 +77,7 @@
                     </div>
                     <div class="col-xs-10">
                       <div class="link-name">Cotisations</div>
-                      <div class="link-description">Prix de la cotisation 2019-2020</div>
+                      <div class="link-description">Prix de la cotisation 2020-2021</div>
                     </div>
                   </div>
                 </a>
@@ -86,6 +86,11 @@
             </ul>
         </li>
         
+        <!-- Incriptions -->
+        <li class="dropdown">
+          <a href="/inscriptions/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-alt fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Inscriptions</span></a>
+        </li>
+
         <!-- Calendrier -->
         <li class="dropdown">
           <a href="/calendrier/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar-check fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Calendrier</span></a>

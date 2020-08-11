@@ -21,11 +21,6 @@
 
     <link href="/static/css/home.css" rel="stylesheet" type="text/css">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -37,156 +32,6 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-main navbar-static-top">
-  <div class="container">
-    <div class="nav navbar-left navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="menu-text">Menu</span>
-          <span class="menu-bar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </span>
-      </button>
-        <div>
-          <a class="navbar-brand" href="/">
-            <img style="width: auto; height: 45px; margin-top: -13px;"
-                  src="/static/images/portetgym.png" alt="Logo portet gym">
-          </a>
-        </div>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-top-links navbar-left navbar-collapse">
-        
-        <!-- L'association -->
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users fa-fw" aria-hidden="true"></i> <span class="hidden-sm">L&#39;Association</span></a>
-            <ul class="dropdown-menu">
-                
-              <li>
-                <a href="/bureau" class="container dropdown-link">
-                  <div class="row">
-                    <div class="col-xs-2 icon">
-                      <i class="fa fa-user-tie glyphicon"></i>
-                    </div>
-                    <div class="col-xs-10">
-                      <div class="link-name">Le Bureau</div>
-                      <div class="link-description">Les Bénévoles de l'association</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-                
-              <li>
-                <a href="/entraineurs" class="container dropdown-link">
-                  <div class="row">
-                    <div class="col-xs-2 icon">
-                      <i class="fa fa-user-ninja glyphicon"></i>
-                    </div>
-                    <div class="col-xs-10">
-                      <div class="link-name">Les entraineurs</div>
-                      <div class="link-description">Les entraineurs du club</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-            
-              <li>
-                <a href="/planning" class="container dropdown-link">
-                  <div class="row">
-                    <div class="col-xs-2 icon">
-                      <i class="fa fa-clock glyphicon"></i>
-                    </div>
-                    <div class="col-xs-10">
-                      <div class="link-name">Planning</div>
-                      <div class="link-description">Horaire des entrainements</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-            
-              <li>
-                <a href="/cotisations" class="container dropdown-link">
-                  <div class="row">
-                    <div class="col-xs-2 icon">
-                      <i class="fa fa-euro-sign glyphicon"></i>
-                    </div>
-                    <div class="col-xs-10">
-                      <div class="link-name">Cotisations</div>
-                      <div class="link-description">Prix de la cotisation 2019-2020</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              
-            </ul>
-        </li>
-        
-        <!-- Calendrier -->
-        <li class="dropdown">
-          <a href="/calendrier/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar-check fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Calendrier</span></a>
-        </li>
-
-        <!-- Résultats -->
-        <li class="dropdown">
-          <a href="https://www.ffgym.fr/Competition/resultats" class="dropdown-toggle" data-toggle="dropdown" target="_blank"><i class="fa fa-trophy fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Résultats</span></a>
-        </li>
-
-
-        <!-- Fédérations -->
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Fédérations</span></a>
-          <ul class="dropdown-menu">
-              
-              <li>
-                <a href="https://www.ufolepgym.com/" class="container dropdown-link" target="_blank">
-                  <div class="row">
-                    <div class="col-xs-2 icon">
-                      <img src="/static/images/ufolep.jpg" alt="logo ufolep" class="img-responsive logo">
-                    </div>
-                    <div class="col-xs-10">
-                      <div class="link-name">UFOLEP</div>
-                      <div class="link-description">Le site de l'UFOLEP</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              
-              <li>
-                <a href="https://ffgym.fr/" class="container dropdown-link" target="_blank">
-                  <div class="row">
-                    <div class="col-xs-2 icon">
-                      <img src="/static/images/ffgym.jpeg" alt="logo ffgym" class="img-responsive logo">
-                    </div>
-                    <div class="col-xs-10">
-                      <div class="link-name">FFGym</div>
-                      <div class="link-description">Toutes les informations de la fédération française</div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              
-          </ul>
-        </li>
-
-      </ul>
-
-      <ul class="nav navbar-top-links navbar-right navbar-collapse">
-        <li>
-          <a href="/contact/"> Contact</a>
-        </li>
-
-        <hr class="visible-xs"/>
-
-        <li>
-            <a href="/login">Connexion</a>
-        </li> 
-
-      </ul>
-    </div>
-  </div><!-- /.container -->
-</nav>
 
 <div id="page-wrapper">
 
@@ -211,12 +56,12 @@
   </div>
 
   <div class="jumbotron">
-    <div class="general_background">
+    <div class="general_backgrounds">
       <div class="news1">
         <div class="row">
           <h2 class="assos-title-1">INSCRIPTIONS</h2>
          
-          <p class="assos-infos-1">Nous mettons en place cette année un nouveau système d'inscription avec un formulaire à remplir en ligne. Il sera disponible sur ce site internet à partir de mi-août. Il faudra ensuite venir aux inscriptions en personne <b> le samedi 29 août de 10h à 13h</b> ou <b>le mercredi 2 septembre de 17h à 20h.</b></p>
+          <p class="assos-infos-1">Nous mettons en place cette année un nouveau système d'<a href="/inscriptions" style="color:red">inscription</a> avec un formulaire à remplir en ligne. Il sera disponible sur ce site internet à partir de mi-août. Il faudra ensuite venir aux inscriptions en personne <b> le samedi 29 août de 10h à 13h</b> ou <b>le mercredi 2 septembre de 17h à 20h.</b></p>
         </div>
         <br>
         <br>

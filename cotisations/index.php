@@ -97,8 +97,10 @@
           </ul>
         </div>
         <div class="row">
-          <p>Demande de facture :</p>
-            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfxcuHR4AKtWeqZ7lopk1BW7d1NekEwUJ1GggPZz4TINmipaw/viewform"> <i class="fa fa-external-link" aria-hidden="true"></i>remplir le formulaire en lien svp</a>
+          <p>Factures :</p>
+            <ul>
+              <li>Pour obtenir une facture, merci de remplir<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfxcuHR4AKtWeqZ7lopk1BW7d1NekEwUJ1GggPZz4TINmipaw/viewform"> <i class="fa fa-external-link" aria-hidden="true"></i>ce formulaire</a></li>
+            </ul>
         </div>
         <br>
       </div>

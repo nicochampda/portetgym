@@ -77,7 +77,9 @@ function page_content()
  */
 function init()
 {
+    require 'common/header.php';
     require config('template_path') . '/template.php';
     require 'common/footer.php';
+    
 
 }

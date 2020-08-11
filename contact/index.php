@@ -87,11 +87,11 @@
                 <li>Par e-mail : <a href="mailto:contact@portetgym.fr">contact@portetgym.fr</a></li>
                 <li>Par messenger : <a href="https://www.facebook.com/PortetGym/"><span class="fab fa-facebook social"></a></li>
             </ul>
-            <h3>Passer a la salle</h3>
+            <h3>Passer à la salle</h3>
 
             <p>
-               Hors vacances scolaires, il y a du monde a la salle qui pourra vous renseigner tous les jours a partir de 17h en semaine et le samedi toute la journée.
-              Attention tout de même a ne pas perturber les entraînements </p>
+               Hors vacances scolaires, il y a du monde a la salle qui pourra vous renseigner tous les jours à partir de 17h en semaine et le samedi toute la journée.
+              Attention tout de même à ne pas perturber les entraînements.</p>
             
             <h3>Adresse</h3>
             <p>Portet Gym <br />
