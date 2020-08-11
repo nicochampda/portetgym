@@ -96,6 +96,10 @@
             <li>Pour les Non Portésiens, 83€ seront demandés par chèque à l'ordre du "régie de recette activités ludiques" pour la mairie de Portet </li>
           </ul>
         </div>
+        <div class="row">
+          <p>Demande de facture :</p>
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfxcuHR4AKtWeqZ7lopk1BW7d1NekEwUJ1GggPZz4TINmipaw/viewform"> <i class="fa fa-external-link" aria-hidden="true"></i>remplir le formulaire en lien svp</a>
+        </div>
         <br>
       </div>
     </div>
