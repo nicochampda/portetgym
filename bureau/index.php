@@ -32,6 +32,18 @@
         <div class="col-md-4 col-md-offset-1">
           <h2 class="assos-title">Cette page est en cours de création</h2>
           <p class="assos-slogan">Aidez nous a la terminer</p>
+            
+            <div class="kpi-box">
+            <img class="fit-picture"
+                 src="https://media-exp1.licdn.com/dms/image/C5103AQFzXSZA3xhsKg/profile-displayphoto-shrink_200_200/0?e=1600300800&v=beta&t=ptm_L4WjUPGZUHQ5orGOjtpGjPS6Tjm0q-KozzBQoGI"
+                 alt="le bg pdt du club">
+              <p class="kpi-description">
+                Président
+              </p>  
+              <p class="kpi-value">
+                Thibaud HUBERT
+              </p>
+            </div>
         </div>
         <div class="col-md-offset-1 col-md-6">
           <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 70%; height: 70%">
