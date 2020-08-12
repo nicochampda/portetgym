@@ -24,6 +24,10 @@
     <!-- Navigation -->
     <?php include('../common/header.php'); ?>
 
+    <!--DV: problème d'accès au bouton du calendrier, couvert par le menu de la page -->
+    <br/><br/>
+    
+    <!-- embed du google calendier -->
     <div style="text-align: center">
     <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23039BE5&amp;ctz=Europe%2FParis&amp;src=cnRnZzY3amNscGdrN3MzcWNvYTdzNjlzNmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showTz=0&amp;showTabs=0&amp;showPrint=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
