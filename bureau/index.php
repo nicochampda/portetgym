@@ -32,6 +32,16 @@
         <div class="col-md-4 col-md-offset-1">
           <h2 class="assos-title">Cette page est en cours de création</h2>
           <p class="assos-slogan">Aidez nous a la terminer</p>
+            <p>Le bureau est constitué des personnes suivantes : </p>
+            <li>
+                <ul>Président : Thibaud Hubert</ul>
+                <ul>Vice Président : Julie Noharet</ul>
+                <ul>Trésorière : Nicolas Champdavoine</ul>
+                <ul>Vice-Trésorier : David Vazelle</ul>
+                <ul>Secrétaire : Alexandre Zaccariotto</ul>
+                <ul>Vice Secrétaire : Aurlie Torreilles</ul>
+            </li>
+            
         </div>
         <div class="col-md-offset-1 col-md-6">
           <img src="/static/images/portetgym2.png" alt="logo Portetgym" class="img-responsive logo" style="width: 70%; height: 70%">
