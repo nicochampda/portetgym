@@ -56,7 +56,7 @@
   </div>
 
   <div class="jumbotron">
-    <div class="general_backgrounds">
+    <div class="general_background">
       <div class="news1">
         <div class="row">
           <h2 class="assos-title-1">INSCRIPTIONS</h2>

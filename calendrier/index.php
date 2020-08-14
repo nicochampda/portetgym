@@ -23,10 +23,22 @@
 <body>
     <!-- Navigation -->
     <?php include('../common/header.php'); ?>
-
-    <div style="text-align: center">
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23039BE5&amp;ctz=Europe%2FParis&amp;src=cnRnZzY3amNscGdrN3MzcWNvYTdzNjlzNmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showTz=0&amp;showTabs=0&amp;showPrint=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div id="page-wrapper">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <br>
+                    <div style="text-align: center">
+                        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23039BE5&amp;ctz=Europe%2FParis&amp;src=cG9ydGV0Z3ltQGdtYWlsLmNvbQ&amp;src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%230B8043&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <!-- Footer -->
     <?php include('../common/footer.php'); ?>
