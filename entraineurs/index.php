@@ -12,10 +12,12 @@
     <title> Portet Gym | Entraineurs </title>
 
     
-    <link href="/static/css/base.css" rel="stylesheet">
+     <!-- Main Functionnalities -->
+     <script src="/static/jquery/jquery.min.js"></script>
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
 
-    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+    <!-- style -->
     <link href="/static/css/all.css" rel="stylesheet" type="text/css">
     <link href="/static/css/base.css" rel="stylesheet" type="text/css">
 

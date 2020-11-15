@@ -10,15 +10,15 @@
     
     <title><?php site_name(); ?> | <?php page_title(); ?></title>
 
-
+    <!-- Main Functionnalities -->
+    <script src="/static/jquery/jquery.min.js"></script>
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- style -->
     <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
     <link href="/static/css/all.css" rel="stylesheet" type="text/css">
-
     <link href="/static/css/base.css" rel="stylesheet" type="text/css">
-
     <link href="/static/css/home.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,7 +55,7 @@
       </div>
   </div>
 
-  <div class="jumbotron">
+  <!-- <div class="jumbotron">
     <div class="general_background">
       <div class="news1">
         <div class="row">
@@ -67,6 +67,22 @@
         <br>
         <div class="row">
           <p class="assos-notif">Notez que remplir le formulaire en ligne ne garantit pas de place.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="jumbotron">
+    <div class="general_background">
+      <div class="news1">
+        <div class="row">
+          <h2 class="assos-title-1">INFORMATIONS COVID</h2>
+         
+          <p class="assos-infos-1">Pour des raisons indépendantes de notre volonté la salle de gym est fermée jusqu'à nouvel ordre.</p>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <p class="assos-notif">Plus d'informations vous seront communiquées par mail</p>
         </div>
       </div>
     </div>
@@ -142,11 +158,7 @@
 
 </div>
 <style>.navbar-brand { display: none; }</style>
-<!-- jQuery -->
-<script src="/static/jquery/jquery.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="/static/boostrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>

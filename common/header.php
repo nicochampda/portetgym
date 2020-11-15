@@ -24,7 +24,10 @@
         
         <!-- L'association -->
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users fa-fw" aria-hidden="true"></i> <span class="hidden-sm">L&#39;Association</span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-users fa-fw" aria-hidden="true"></i> 
+            <span class="hidden-sm">L&#39;Association</span>
+          </a>
             <ul class="dropdown-menu">
                 
               <li>
@@ -87,24 +90,32 @@
         </li>
         
         <!-- Incriptions -->
-        <li class="dropdown">
+        <!-- <li class="dropdown">
           <a href="/inscriptions/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-alt fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Inscriptions</span></a>
-        </li>
+        </li> -->
 
         <!-- Calendrier -->
         <li class="dropdown">
-          <a href="/calendrier/" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar-check fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Calendrier</span></a>
+          <a class="dropdown-toggle" href="/calendrier/">
+            <i class="fa fa-calendar-check fa-fw" aria-hidden="true"></i> 
+            <span class="hidden-sm">Calendrier</span>
+          </a>
         </li>
 
         <!-- Résultats -->
         <li class="dropdown">
-          <a href="https://www.ffgym.fr/Competition/resultats" class="dropdown-toggle" data-toggle="dropdown" target="_blank"><i class="fa fa-trophy fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Résultats</span></a>
+          <a href="https://www.ffgym.fr/Competition/resultats" class="dropdown-toggle" target="_blank">
+            <i class="fa fa-trophy fa-fw" aria-hidden="true"></i> 
+            <span class="hidden-sm">Résultats</span>
+          </a>
         </li>
 
 
         <!-- Fédérations -->
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info fa-fw" aria-hidden="true"></i> <span class="hidden-sm">Fédérations</span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info fa-fw" aria-hidden="true">
+            </i> <span class="hidden-sm">Fédérations</span>
+          </a>
           <ul class="dropdown-menu">
               
               <li>

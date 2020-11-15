@@ -11,15 +11,15 @@
 
     <title> Portet Gym | Contact </title>
 
-    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+     <!-- Main Functionnalities -->
+     <script src="/static/jquery/jquery.min.js"></script>
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- style -->
     <link href="/static/css/all.css" rel="stylesheet" type="text/css">
     <link href="/static/css/base.css" rel="stylesheet" type="text/css">
-<!-- jQuery -->
-<script src="/static/jquery/jquery.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="/static/boostrap/js/bootstrap.min.js"></script>
 </head>
 <body>
   <!-- Navigation -->
