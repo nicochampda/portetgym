@@ -75,21 +75,35 @@
     <div class="general_background">
       <div class="news1">
         <div class="row">
-          <h2 class="assos-title-1">INFORMATIONS COVID</h2>
+          <h2 class="assos-title-1">Reprise des activités</h2>
          
-          <p class="assos-infos-1">Pour des raisons indépendantes de notre volonté la salle de gym est fermée jusqu'à nouvel ordre.</p>
+          <!-- <p class="assos-infos-1">Pour des raisons indépendantes de notre volonté la salle de gym est fermée jusqu'à nouvel ordre.</p>
         </div>
         <br>
-        <br>
+        <br> -->
         <div class="row">
-          <p class="assos-notif">Plus d'informations vous seront communiquées par mail</p>
+          <p class="assos-infos-1">Conformément aux annonces gouvernementales, nous avons dès aujourd'hui le droit et la possibilité de reprendre la gymnastique au sein de nos locaux, mais pour le moment toujours en <b>dehors</b> de la salle.<br><br>
+
+          Nous avons par conséquent réorganisé le <b>planning hebdomadaire</b> (ci-dessous) pour que les groupes aient leurs créneaux d'entrainement. 
+          <br><br>
+          N'ayant pas encore un libre accès à la salle, seul l'entraineur pourra entrer dans les locaux. Il vous faudra donc prévoir : <br>
+            &nbsp; - l'arrivée déjà <b>en tenue</b> des enfants, avec leurs bouteilles <br>
+            &nbsp; - une tenue adaptée a la pratique du sport en extérieur <br>
+            &nbsp; - le passage aux toilettes fait (WC seulement pour les urgences santé) <br>
+            &nbsp; - de les déposer sur le coté gauche de la salle (côté mairie) <br>
+          </p>
         </div>
       </div>
     </div>
   </div>
-  
-    
-        
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+            <img src="/static/images/planning_reprise.jpg" alt="planning reprise" class="img-responsive">
+      </div>
+    </div>
+  </div>
   <!-- <div class="home-fragment home-presentation home-user-management">
     <div class="jumbotron-sep hidden-xs"></div>
       <div class="container article">
